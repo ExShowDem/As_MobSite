@@ -1,0 +1,50 @@
+.swiper-container.perspective .swiper-slide .slide-content {
+	overflow: hidden;
+}
+.swiper-container.perspective .swiper-slide .slide-content img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.swiper-container.perspective .swiper-slide-next .slide-content {
+	margin-left: 0px;
+	-webkit-transform: translateY(0) scale(2.5);
+	-ms-transform: translateY(0) scale(2.5);
+	transform: translateY(0) scale(2.5);
+	transition: transform 0.25s;
+}
+.swiper-container.perspective .swiper-slide-active {
+	transform: translateX( calc(100vw / -5) );
+}
+.swiper-container.perspective .swiper-slide-next + .swiper-slide {
+	transform: translateX( calc(100vw / 5) );
+}
+.swiper-container.perspective .caption {
+	margin: 0;
+	top: 0;
+	position: absolute;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	background-color: rgba(93, 16, 73, 0.5); 
+	color: white; 
+}
+@media only screen and (max-width: 640px) {
+	.swiper-container.perspective .caption {
+		font-size: 6px;
+	}
+}
+
+.swiper-pagination {
+	position: initial;
+	padding-top: 10px;
+}
+.swiper-pagination-bullet {
+	margin: 5px;
+	background: transparent;
+	border: 2px solid white !important;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active {
+	background: white;
+}

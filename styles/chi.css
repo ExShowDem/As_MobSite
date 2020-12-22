@@ -1,0 +1,31 @@
+/* https://www.onlinewebfonts.com/download/05e476e067ffef74ca5686f229c40a63 */
+
+@import url(//db.onlinewebfonts.com/c/05e476e067ffef74ca5686f229c40a63?family=PingFang+SC);
+
+@font-face {
+	font-family: "PingFang"; 
+	src: url("//db.onlinewebfonts.com/t/05e476e067ffef74ca5686f229c40a63.eot"); 
+	src: url("//db.onlinewebfonts.com/t/05e476e067ffef74ca5686f229c40a63.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/05e476e067ffef74ca5686f229c40a63.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/05e476e067ffef74ca5686f229c40a63.woff") format("woff"), url("//db.onlinewebfonts.com/t/05e476e067ffef74ca5686f229c40a63.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/05e476e067ffef74ca5686f229c40a63.svg#PingFang SC") format("svg"); 
+}
+
+@font-face {
+	font-family: 'SongtiTCRegular';
+	src: url('SongtiTCRegular.ttf')  format('truetype');
+}
+
+*, h1, h2, h3, h4, h5, h6 {
+	font-family: HelveticaNeue;
+}
+
+h3.home-about-text span,
+#languages_page .option-row:last-child .text .left {
+	font-family: Baskerville !important;
+}
+
+#languages_page .option-row:not(:last-child) .text .left {
+	font-family: SongtiTCRegular !important;
+}
+
+#about #moments .memory-content {
+	font-family: PingFang;
+}
